@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(43, 42, 42);
+
+}
+
+.calculator{
+    border: 1px solid #717377;
+    padding: 20px;
+    border-radius: 30px;
+    background-color: transparent;
+    box-shadow: 0px 3px 15px rgba(113,115,119,0.8);
+    
+}
+input{
+    width: 300px;
+    height: 60px;
+    border: none;
+    padding: none;
+    margin: 20px;
+    background: transparent;
+    box-shadow: 0px 3px 15px rgba(115, 115, 113, 0.5);
+    font-size: 55px;
+    text-align: right;
+    cursor: pointer;
+    color: #f2f8f4;
+}
+
+
+input::placeholder{
+    color: #f2f8f4;
+}
+
+button{
+    border: none;
+    width: 60px;
+    justify-content: center;
+    height: 60px;
+    margin: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    box-shadow: 0px 3px 15px rgba(137, 137, 135, 0.9);
+
+}
+.Acbtn{
+    background-color: rgb(97, 86, 86);
+}
+
+.DEL{
+    background-color: rgb(97, 86, 86);
+}
+.per{
+    background-color: rgb(97, 86, 86);
+}
+
+.divbtn{
+    background-color: rgb(243, 162, 12);
+    font-size: large;
+
+}
+
+.mulbtn{
+    background-color: rgb(243, 162, 12);
+    font-size: large;
+
+}
+
+.subbtn{
+    background-color: rgb(243, 162, 12);
+    font-size: large;
+
+}
+
+.addbtn{
+    background-color: rgb(243, 162, 12);
+    font-size: large;
+
+}
+
+.equalbtn{
+    background-color: rgb(243, 162, 12);
+    font-size: large;
+
+}
